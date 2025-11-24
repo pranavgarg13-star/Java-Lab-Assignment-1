@@ -10,10 +10,10 @@ The program demonstrates inheritance, constructors, array lists, and basic valid
 - Uses Person → Student inheritance
 - Input validation for marks (0–100)
 - Automatic grade calculation
-- A → 90 and above
-- B → 75–89
-- C → 60–74
-- D → below 60
+ a. A → 90 and above
+ b. B → 75–89
+ c. C → 60–74
+ d. D → below 60
 - Display all stored student records
 - Menu-driven console interface using switch
 - Uses ArrayList to store multiple student objects
@@ -21,31 +21,22 @@ The program demonstrates inheritance, constructors, array lists, and basic valid
 ## Classes Included
 1. Person (Parent Class)
 
-Stores basic attribute: name
+  - Stores basic attribute: name
 
 2. Student (Child Class)
 
-Inherits from Person
-
-Attributes: roll number, course, marks, grade
-
-Contains:
-
-Default & parameterized constructor
-
-Input method
-
-Grade calculation
-
-Display method
+  - Inherits from Person
+  - Attributes: roll number, course, marks, grade
+  - Contains:
+     - Default & parameterized constructor
+     - Input method
+     - Grade calculation
+     - Display method
 
 3. StudentRecordSystem (Main Class)
-
-Runs menu
-
-Stores students in an ArrayList
-
-Allows adding & viewing student records
+  - Runs menu
+  - Stores students in an ArrayList
+  - Allows adding & viewing student records
 
 ## How to Run
 
@@ -77,8 +68,12 @@ Student added successfully!
 Enter your choice: 2
 
 Roll No: 101
+
 Name: Rohan
+
 Course: BCA
+
 Marks: 85.0
+
 Grade: B
 -----------------------------
