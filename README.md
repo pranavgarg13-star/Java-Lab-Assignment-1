@@ -1,4 +1,4 @@
-# Java-Assignment
+# Java-Lab-Assignment-1
 By : Pranav Garg , Roll No. : 2401010034
 Student Record Management System
 
